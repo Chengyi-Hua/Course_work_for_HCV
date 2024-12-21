@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/files/YOLO_dataset/train
+val: /content/drive/MyDrive/files/YOLO_dataset/validation
+test: /content/drive/MyDrive/files/YOLO_dataset/test
+
+nc: 2  # Number of classes (Apple_Good and Apple_Bad)
+names: ['Apple_Good', 'Apple_Bad']  # Class names
