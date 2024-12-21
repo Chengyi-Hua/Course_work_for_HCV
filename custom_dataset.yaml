@@ -1,0 +1,18 @@
+# Paths to train and validation images and labels
+train: /path/to/split_data_for_YOLO_finetuning/train  # Path to training images
+val: /path/to/split_data_for_YOLO_finetuning/validation  # Path to validation images
+test: path/to/split_data_for_YOLO_finetuning/test  # optional
+
+# Number of classes (adjust this to match your classes)
+nc: 18  # Example: Number of fruit classes * freshness levels (e.g., Good, Bad, Mixed)
+
+# Class names (adjust these to match your folder names/classes)
+names: [
+    'Apple_Bad', 'Apple_Good', 'Apple_mixed', 
+    'Banana_Bad', 'Banana_Good', 'Banana_mixed', 
+    'Guava_Bad', 'Guava_Good', 'Guava_mixed', 
+    'Lemon_mixed', 
+    'Lime_Bad', 'Lime_Good', 
+    'Orange_Bad', 'Orange_Good', 'Orange_mixed', 
+    'Pomegranate_Bad', 'Pomegranate_Good', 'Pomegranate_mixed'
+]
